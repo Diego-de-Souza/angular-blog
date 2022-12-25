@@ -1,0 +1,28 @@
+
+#menu-bar {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgb(86, 84, 84);
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu-bar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+a {
+  color: rgb(197, 193, 193);
+  text-decoration: none;
+}
+
+#container-preium {
+  margin-right: 50px;
+  color: red;
+}

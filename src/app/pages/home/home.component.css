@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#container-header {
+  height: 650px;
+  background-image: url('../../../assets/imagens/imagem-menu-main-fundo.jpg');
+  background-size: cover;
+}
