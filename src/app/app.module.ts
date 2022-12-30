@@ -6,12 +6,13 @@ import { AppComponent } from './app.component';
 import{LOCALE_ID} from '@angular/core'
 
 import { HomeModule} from './home/home.module';
-import { ArticleHotTopicComponent } from './components/article-hot-topic/article-hot-topic.component';
+import {SectionFooterComponent}from 'src/app/components/section-footer/section-footer.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArticleHotTopicComponent,
+    SectionFooterComponent
   ],
   imports: [
     BrowserModule,
