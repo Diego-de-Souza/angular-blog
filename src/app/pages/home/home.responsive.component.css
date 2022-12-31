@@ -10,7 +10,7 @@
   #container-area-noticy-main{
     display: block;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     margin: 4rem 0px 0px 0px;
     align-items: center;
     justify-content: center;
@@ -56,9 +56,26 @@
   }
 
   #section_cards_vertical__container{
+    margin: 2em 0;
+    background-image: url('../../../assets/imagens/jujutsu_kaisen_megumi_vs_sukuna_by_haruhi003_dehmyhn-fullview.jpg');
+    background-repeat: space;
+    background-attachment: inherit;
+    background-size: 100%;
+  }
+
+  #section_cards_vertical__cards {
     display: flex;
     flex-direction: column;
-    margin: 2em 1em;
+    margin: 0 0;
+    align-items: center;
+  }
+
+  #section_cards_vertical__title > h3 {
+    font-size: 1em;
+  }
+
+  #section_cards_vertical__title > a {
+    font-size: 1em;
   }
 }
 

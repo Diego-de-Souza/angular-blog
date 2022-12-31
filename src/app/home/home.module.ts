@@ -16,6 +16,7 @@ import {SectionMerchandisingComponent} from '../components/section-merchandising
 import { SectionCardsVerticalComponent} from '../components/section-cards-vertical/section-cards-vertical.component';
 import{SectionFooterComponent} from '../components/section-footer/section-footer.component';
 
+
 @NgModule({
   declarations: [
     HomeComponent,

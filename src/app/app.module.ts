@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import{LOCALE_ID} from '@angular/core'
 
 import { HomeModule} from './home/home.module';
-
-
+import {ContentModuleModule}from './home/content-module.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,8 @@ import { HomeModule} from './home/home.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    ContentModuleModule
   ],
   providers: [{provide: LOCALE_ID, useValue: 'en-US' }],
   bootstrap: [AppComponent]

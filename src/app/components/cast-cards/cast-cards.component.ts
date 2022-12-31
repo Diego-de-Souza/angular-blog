@@ -1,12 +1,13 @@
-import { Component, OnInit, Input } from '@angular/core';
-import {dataFake} from '../../data/dataFake';
+import { Component, Input, OnInit, Output} from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import {dataFake } from '../../data/dataFake';
 
 @Component({
-  selector: 'app-section-cards-vertical',
-  templateUrl: './section-cards-vertical.component.html',
-  styleUrls: ['./section-cards-vertical.component.css','./section-cards-vertical.responsive.component.css']
+  selector: 'app-cast-cards',
+  templateUrl: './cast-cards.component.html',
+  styleUrls: ['./cast-cards.component.css','./cast-cards.responsive.component.css']
 })
-export class SectionCardsVerticalComponent implements OnInit {
+export class CastCardsComponent implements OnInit {
   @Input()
   photoCard:string='';
   @Input()
@@ -16,7 +17,10 @@ export class SectionCardsVerticalComponent implements OnInit {
   @Input()
   Id:string='';
 
-  constructor() { }
+
+  constructor(
+    
+  ) {   }
 
   ngOnInit(): void {
     this.setValuesToComponent(this.Id)
