@@ -7,7 +7,7 @@ import { Component, Inject, LOCALE_ID, OnInit } from '@angular/core';
 @Component({
   selector: 'app-menu-header',
   templateUrl: './menu-header.component.html',
-  styleUrls: ['./menu-header.component.css']
+  styleUrls: ['./menu-header.component.css','./menu-header.responsive.component.css']
 })
 export class MenuHeaderComponent implements OnInit {
 

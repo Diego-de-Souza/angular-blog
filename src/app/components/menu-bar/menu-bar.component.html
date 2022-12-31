@@ -1,17 +1,11 @@
 <section id="menu-bar">
-  <section id="menu-bar-links">
-    <a href="#">World</a>
-    <a href="#">Politics</a>
-    <a href="#">Health</a>
-    <a href="#">Business</a>
-    <a href="#">Tech</a>
-    <a href="#">Enviroment</a>
-    <a href="#">Sports</a>
-    <a href="#">Style</a>
-    <a href="#">Food</a>
-    <a href="#">Travel</a>
-    <a href="#">Personal Bloggers</a>
-    <a href="#">Magazine</a>
+   <label (click)="abre_fecha_Menu()" id="menuHamburguer"><img id="iconResp" src="{{imageIcone}}" alt="iconResp"></label>
+  <!--<a href="#" onclick="abreFechaMenu()" id="icone_menu_resp"><img id="iconResp" src="menu_resp_fechado_32x32.png" alt="iconResp"></a>-->
+  <section id="menu-bar-links" [ngStyle]="{'display':menuFlutuante}">
+    <a href="https://www.linkedin.com/in/diego-de-souza-lima-campus-expert/" target="_blank">Linkedin</a>
+    <a href="https://github.com/Diego-de-Souza" target="_blank">GitHub</a>
+    <a href="mailto:diegodesouza.souza@gmail.com">E-mail</a>
+    <a href="https://www.instagram.com/jahdigao/" target="_blank">instagram</a>
   </section>
-  <a href="#" id="container-preium">Premium Content</a>
+  <a href="#" id="container-preium" [ngStyle]="{'display':menuFlutuante}">Premium Content</a>
 </section>
